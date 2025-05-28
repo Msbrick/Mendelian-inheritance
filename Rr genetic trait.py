@@ -1,6 +1,6 @@
-def m_genetic_trait(a,b) :
-  m_list = []
-  if a == "R" or a == "r" :
+def m_genetic_trait(a,b) : # Function that takes the mother's traits as input 
+  m_list = [] # List to contain traits
+  if a == "R" or a == "r" : # Enter R or r for the first element of the list
     m_list.append(a)
   if b == "R" or b == "r" :
     m_list.append(b)
