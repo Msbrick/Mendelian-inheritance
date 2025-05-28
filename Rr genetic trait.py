@@ -18,14 +18,6 @@ def f_genetic_trait(c,d) : # Function that takes the father's traits as input
   result2 =  f_list #Save list to result1
   return result2 # return m_list
 
-def c_genetic_trait(e,f) :
-  i_c_list = []
-  if e == "R" or e == "r" :
-    i_c_list.append(e)
-  if f == "R" or f == "r" :
-    i_c_list.append(f)
-  result3 =  e + f
-  return result3
 m_list = m_genetic_trait(input(), input())
 f_list = f_genetic_trait(input(), input())
 
