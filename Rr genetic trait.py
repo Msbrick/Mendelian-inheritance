@@ -1,15 +1,15 @@
 def m_genetic_trait(a,b) : # Function that takes the mother's traits as input 
   m_list = [] # List to contain traits
   if a == "R" or a == "r" : # Enter R or r for the first element of the list
-    m_list.append(a)
-  if b == "R" or b == "r" :
-    m_list.append(b)
-    m_list.sort()
-  result1 =  m_list
-  return result1
+    m_list.append(a) # append the input a to the list
+  if b == "R" or b == "r" : # Enter R or r for the second element of the list
+    m_list.append(b) # append the input a to the list
+    m_list.sort() # sort list
+  result1 =  m_list #Save list to result1
+  return result1  # return m_list
 
-def f_genetic_trait(c,d) :
-  f_list = []
+def f_genetic_trait(c,d) : # Function that takes the father's traits as input 
+  f_list = [] # List to contain traits
   if c == "R" or c == "r" :
     f_list.append(c)
   if d == "R" or d == "r" :
