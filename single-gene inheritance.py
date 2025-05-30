@@ -11,19 +11,19 @@ def mother_phenotype(*phenotype) :
       d = i + j
       d = j + i
       a.append(i)
-      if a_c_list.count(*phenotype)
-  L = len(phenotype)
-  L1 = L - 1
-  for i in range(0:L):
-    for j in range(0:L1):
-      i = 0
-      j = i + 1
-      a = phenotype[i: j]
-      b = "phenotype{j}"
-      c = c[0] + c[1]
-      all_phenotype = [c]
-      result = all_phenotype
-      return result
+      if a_c_list.count(*phenotype) = 1
+        L = len(phenotype)
+        L1 = L - 1
+      for i in range(0:L):
+        for j in range(0:L1):
+         i = 0
+         j = i + 1
+         a = phenotype[i: j]
+         b = "phenotype{j}"
+         c = c[0] + c[1]
+         all_phenotype = [c]
+   result = all_phenotype
+   return result
 
 def father_phenotype(*phenotype) :
   dominate = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "N", "M", "O", "P", "Q", "R", "T", "U", "V", "W", "X", "Y", "Z"]
