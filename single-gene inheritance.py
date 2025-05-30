@@ -33,6 +33,12 @@ def father_phenotype(*phenotype) :
       all_phenotype = [c]
       result = all_phenotype
       return result
+dominate = ["A", "B", "C", "D", "E", "F","G","H","I","J","K","L","N","M","O","P","Q","R","T","U","V","W","X","Y","Z"]
+recessive = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm','n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+for i in dominate:
+  for j in recessive:
+    
   
 
 
