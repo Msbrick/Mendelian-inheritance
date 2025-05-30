@@ -12,7 +12,11 @@ def mother(*phenotype):
       j = i + 1
       a = phenotype[i: j]
       b = "phenotype{j}"
-      c = c[0]
+      c = c[0] + c[1]
+      all_phenotype = [c] 
+
+
+
 
       
 
