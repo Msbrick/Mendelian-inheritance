@@ -37,11 +37,13 @@ dominate = ["A", "B", "C", "D", "E", "F","G","H","I","J","K","L","N","M","O","P"
 recessive = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm','n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 a_c_list = []
-a = 
+a = a_c_list
 for i in dominate:
   for j in recessive:
     d = i + j
     d = j + i
+    a.append(i)
+    
 v = input()
 h = input()
 
