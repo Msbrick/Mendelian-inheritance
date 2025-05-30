@@ -10,11 +10,11 @@ def mother(*phenotype):
     for j in range(0:L1):
       i = 0
       j = i + 1
-      a = phenotype[I: j]
+      a = phenotype[i: j]
       b = "phenotype{j}"
+      c = c[0]
 
-
-      c = str(b)
+      
 
 
 
