@@ -1,9 +1,17 @@
 print("대립형질끼리 순서대로 입력하시오")
 
 def mother_phenotype(*phenotype) :
+  phenotype = [phenotype]
   dominate = ["A", "B", "C", "D", "E", "F","G","H","I","J","K","L","N","M","O","P","Q","R","T","U","V","W","X","Y","Z"]
   recessive = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm','n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-  phenotype = [phenotype]
+  a_c_list = []
+  a = a_c_list
+  for i in dominate:
+    for j in recessive:
+      d = i + j
+      d = j + i
+      a.append(i)
+      if a_c_list.count(*phenotype)
   L = len(phenotype)
   L1 = L - 1
   for i in range(0:L):
