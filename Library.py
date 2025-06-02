@@ -14,27 +14,39 @@ def single-factor inheritance_2_a.f(c,d):
   result = m_list
   return result
 
-def single-factor inheritance_2_a.c(e, f):
-  m_list = []
-  if ord(a) - ord(b) == 32 or ord(a) - ord(b) == -32 or ord(a) - ord(b) == 0 :
-    c = a + b
-    m_list.append(c)
-  result = c_list
+def single_factor_inheritance_m(a_s, *phenotype) :
+  m_list = [phenotype]
+  M = m_list
+  a_m_list = []
+  if a_s == "autosomal" :
+      for i in phenotype :
+        for j in phenotype :
+          if ord(i) - ord(j) == 0 :
+            k = i + j   
+            a_m_list.append(k)
+          elif ord(i) - ord(j) ==32 :
+            k = i + j
+            N = j + i
+            a_m_list.append(k)
+            a_m_list.append(N)
+  result = a_m_list
   return result
 
-def single-factor inheritance_2_a.p(a,b,c,d,e,f):
-  single-factor inheritance_2_a.m(a,b)
-  single-factor inheritance_2_a.f(c,d)
-  single-factor inheritance_2_a.c(e, f)
-  m_list = []
-  f_list = []
-  c_list = []
-  if ord(a) - ord(c) = 0 or ord(a) - ord(c) = 32 or ord(a) - ord(c) = -32 :
-    m_list.append(a)
-    f_list.append(c)
-  if ord(b) - ord(d) = 0 or ord(b) - ord(d) = 32 or ord(b) - ord(d) = -32 :
-    m_list.append(b)
-    f_list.append(d)
-    
+def single_factor_inheritance_f(a_s, *phenotype) :
+  f_list = [phenotype]
+  F= f_list
+  a_f_list = []
+  if a_s == "autosomal" :
+      for i in phenotype :
+        for j in phenotype :
+          if ord(i) - ord(j) == 0 :
+            k = i + j   
+            a_f_list.append(k)
+          elif ord(i) - ord(j) ==32 :
+            k = i + j
+            N = j + i
+            a_f_list.append(k)
+            a_f_list.append(N)
+  result = a_f_list
+  return result
 
-    
