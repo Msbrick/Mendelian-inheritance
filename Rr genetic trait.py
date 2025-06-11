@@ -1,4 +1,4 @@
-import single_gene_inheritance
+import pedigree analysis
 
 m_list = m_genetic_trait(input(), input())
 f_list = f_genetic_trait(input(), input())
