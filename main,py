@@ -1,20 +1,14 @@
+import 
 p = p_genetic_trait_a_i(input(),input())
 c = c_genetic_trait_a_i(input())
-L = len(p)
 aus = 0
 percentage_list = []
 for idx in c:
-    percentage = p.count(idx) / 4 
+    percentage = p.count(idx) / 4
     percentage_list.append(percentage)
     print(percentage_list)
-for nnx in (0,L):
-    nnx = 0
-    a = percentage_list[nnx: nnx + 2]
-    aus += nnx
-    print(a)
-    sum_percentage.append(sum(a))
-    print(sum_perentage)
+    L = len(percentage_list)
 ans = 1
-for n in sum_percentage:
+for n in percentage_list:
 	ans *= n
 print(ans)
