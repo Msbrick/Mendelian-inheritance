@@ -1,3 +1,4 @@
+import single_gene_inheritance
 import 
 p = p_genetic_trait_a_i(input(),input())
 c = c_genetic_trait_a_i(input())
