@@ -1,5 +1,5 @@
-import single_gene_inheritance
-import 
+import pedigree analysis
+
 p = p_genetic_trait_a_i(input(),input())
 c = c_genetic_trait_a_i(input())
 aus = 0
