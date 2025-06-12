@@ -1,4 +1,4 @@
-def m_genetic_trait(a,b) : # Function that takes the mother's traits as input 
+def m_basic_trait(a,b) : # Function that takes the mother's traits as input 
   m_list = [] # List to contain traits
   if a == "R" or a == "r" : # if input R or r for the first element of the list
     m_list.append(a) # append the input a to the list
@@ -8,7 +8,7 @@ def m_genetic_trait(a,b) : # Function that takes the mother's traits as input
   result1 =  m_list #Save list to result1
   return result1 # return m_list
 
-def f_genetic_trait(c,d) : # Function that takes the father's traits as input 
+def f_basic_trait(c,d) : # Function that takes the father's traits as input 
   f_list = [] # List to contain traits
   if c == "R" or c == "r" : # if input R or r for the first element of the list
     f_list.append(c) # append the input a to the list
