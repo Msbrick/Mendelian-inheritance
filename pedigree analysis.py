@@ -55,6 +55,5 @@ def c_genetic_trait_a_i(phenotype) :
     c_p_list = list()
     for idx in range(0, len(c_list), 2):
         c_p_list.append(c_list[idx] + c_list[idx+1])
-
     result = c_p_list
     return result
